@@ -2,15 +2,15 @@
 Simple add calculator built with Angular and node.js
 
 To run frontend go to folder
-### cd frontend/calculator
+### 'cd frontend/calculator'
 To install packages
-### npm install
+### 'npm install'
 To run the project
-### ng serve
+### 'ng serve'
 
 To run the backend go to folder
-### cd backend/
+### 'cd backend/'
 To install packages
-### npm install
+### 'npm install'
 To run the project
-### node server.js
+### 'node server.js'
