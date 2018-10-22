@@ -1,0 +1,13 @@
+<form [formGroup]="calculatorForm">
+  <mat-form-field class="margin">
+    <input type="number" matInput formControlName="operandA">
+  </mat-form-field>
+  <mat-icon>add</mat-icon>
+  <mat-form-field class="margin">
+    <input type="number" matInput formControlName="operandB">
+  </mat-form-field>
+  <button mat-fab mat-raised-button color="primary" (click)="add()">
+      <mat-icon>drag_handle</mat-icon>
+  </button>
+  <b class="mat-body margin"> {{ calculatorForm.get('result').value }}</b>
+</form>
